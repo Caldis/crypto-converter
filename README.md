@@ -10,7 +10,7 @@
 </div>
 
 
-> Crypto Converter 是一个 Chrome 浏览器的扩展。启用该扩展后，您在页面上选中文字后，如果是数字，将会在其附近弹出一个悬浮按钮，点击按钮即可查询对应素质的数字货币汇率。本项目仍在开发中, 如果您感兴趣, 欢迎根据以下的说明使用, 也欢迎 [来这里](https://github.com/Caldis/crypto-converter/issues) 反馈意见
+> Crypto Converter 是一个 Chrome 浏览器的扩展。启用该扩展后，您在页面上选中数字后，将会在其附近弹出一个悬浮按钮，点击按钮即可查询对应的数字货币汇率。本项目仍在开发中, 如果您感兴趣, 欢迎根据以下的说明使用, 也欢迎 [来这里](https://github.com/Caldis/crypto-converter/issues) 反馈意见
 
 
 <h2 align="center">安装</h2>
