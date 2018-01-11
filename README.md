@@ -52,9 +52,9 @@ npm run build（此步骤会在 crypto-converter 目录下生成 build 文件夹
 
 <h2 align="center">鸣谢</h2>
 
-- [CryptocurrencyMarketCapitalizations](https://coinmarketcap.com/)
+[CryptocurrencyMarketCapitalizations](https://coinmarketcap.com/)
 
 
 <h2 align="center">证书</h2>
 
-react-zmage 基于 [MIT licensed](./LICENSE) 发布
+Crypto Converter 基于 [MIT licensed](./LICENSE) 发布
