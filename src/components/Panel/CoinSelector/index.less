@@ -1,0 +1,51 @@
+.coinSelector {
+    margin-top: 10px;
+    width: 200px;
+    font-size: 18px;
+}
+
+.coinButton {
+    width: 100%;
+    font-size: 18px !important;
+}
+
+.listContainer {
+    width: 500px;
+
+    * {
+        font-size: 16px !important;
+    }
+
+    .typeSelector {
+        box-sizing: border-box;
+        padding-left: 10px;
+        display: flex;
+		flex-direction: row;
+		z-index: 1000000;
+        .type {
+            text-align: center;
+            width: 20%;
+            padding-top: 12px;
+            span {
+				margin: auto;
+                font-size: 14px !important;
+            }
+            .radio {
+                transform: translateY(-7px);
+            }
+        }
+        .typeFilterContainer {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 10px 0 10px 35px;
+            .typeFilter {
+                width: 100%;
+            }
+        }
+    }
+
+    .coinList {
+        height: 400px;
+        overflow-y: auto;
+    }
+}

@@ -1,0 +1,48 @@
+.portal {
+    box-sizing: border-box;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100000;
+    transition: all .3s;
+
+    >button {
+        transition: all .3s;
+        width: 36px;
+        height: 36px;
+        border-radius: 35px;
+
+        div {
+            transition: all .3s;
+            position: absolute;
+            left: 30px;
+            width: 80px;
+            opacity: 0;
+            font-size: 12px;
+            transform: translateX(12px);
+        }
+
+        span {
+            padding-left: 8px;
+            justify-content: left;
+
+            svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
+.portal:hover {
+    >button {
+        width: 120px;
+
+        div {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+
+.portalExpand {
+    composes: portal;
+}
