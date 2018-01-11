@@ -14,14 +14,17 @@
 
 
 <h2 align="center">安装</h2>
+
 ## 手动安装
+- 下载与编译
 ```bash
-// 下载与编译
 git clone https://github.com/Caldis/crypto-converter
 cd crypto-converter
 npm i
 npm run build（此步骤会在 crypto-converter 目录下生成 build 文件夹）
-// 安装到 Chrome 浏览器
+```
+- 安装到 Chrome 浏览器
+```bash
 在 Chrome 浏览器中打开 chrome://extensions/ 页面
 勾选 “开发者模式”
 将生成的 build 文件夹整个拖入浏览器页面内
