@@ -15,28 +15,30 @@
 
 <h2 align="center">安装</h2>
 
-## 手动安装
-- 下载与编译
+- 手动安装
+
+
 ```bash
+# 下载与编译
 git clone https://github.com/Caldis/crypto-converter
 cd crypto-converter
 npm i
 npm run build（此步骤会在 crypto-converter 目录下生成 build 文件夹）
-```
-- 安装到 Chrome 浏览器
-```bash
+# 安装到 Chrome 浏览器
 在 Chrome 浏览器中打开 chrome://extensions/ 页面
 勾选 “开发者模式”
 将生成的 build 文件夹整个拖入浏览器页面内
 ```
 
-## Google 应用商店
+- 通过 Google 应用商店安装
+
 ```bash
 暂未上线
 ```
 
 
 <h2 align="center">在线</h2>
+
 ```bash
 暂未上线
 ```
@@ -49,7 +51,8 @@ npm run build（此步骤会在 crypto-converter 目录下生成 build 文件夹
 
 
 <h2 align="center">鸣谢</h2>
-- [Cryptocurrency Market Capitalizations](https://coinmarketcap.com/)
+
+- [CryptocurrencyMarketCapitalizations](https://coinmarketcap.com/)
 
 
 <h2 align="center">证书</h2>
