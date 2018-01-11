@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "CryptoConverter - A cryptocurrency price converter",
-    "short_name": "CryptoConverter",
+    "name": "Crypto Converter - A cryptocurrency price converter",
+    "short_name": "Crypto Converter",
     "description": "Crypto price converter",
     "version": "0.0.1",
     "icons": {
@@ -12,7 +12,7 @@
     },
     "browser_action": {
         "default_icon": "assets/icon.png",
-        "default_title": "CryptoConverter",
+        "default_title": "Crypto Converter",
         "default_popup": "popup.html"
     },
     "content_scripts": [
